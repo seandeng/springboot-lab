@@ -9,38 +9,19 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.example</groupId>
-    <artifactId>lab-01-inital</artifactId>
+    <artifactId>lab-02-logging-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>lab-01-inital</name>
-    <description>lab-01-inital</description>
-
+    <name>lab-02-logging-demo</name>
+    <description>lab-02-logging-demo</description>
     <properties>
         <java.version>11</java.version>
     </properties>
-
     <dependencies>
+        <!-- 实现对 Spring MVC 的自动化配置 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
-
-    <repositories>
-
-        <repository>
-            <id>Central</id>
-            <url>https://repo1.maven.org/maven2</url>
-        </repository>
-    </repositories>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
